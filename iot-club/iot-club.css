@@ -1,0 +1,142 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0a0f1c;
+    color: #e6f1ff;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,20,0.8), rgba(0,0,30,0.9)),
+                url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    color: #00d4ff;
+}
+
+.hero p {
+    margin: 15px 0 25px;
+    color: #9edfff;
+}
+
+.btn {
+    background: linear-gradient(135deg, #00d4ff, #007bff);
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0,212,255,0.5);
+}
+
+/* SECTION */
+.section {
+    padding: 80px 20px;
+    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* DARK */
+.dark {
+    background: #10182a;
+    border-radius: 20px;
+    margin: 40px auto;
+}
+
+/* GRID */
+.grid {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    background: #16213a;
+    padding: 25px;
+    border-radius: 15px;
+    width: 260px;
+    transition: 0.3s;
+}
+
+.card i {
+    font-size: 30px;
+    color: #00d4ff;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0,212,255,0.2);
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.skills span {
+    background: #16213a;
+    padding: 10px 18px;
+    border-radius: 20px;
+    border: 1px solid #00d4ff;
+    transition: 0.3s;
+}
+
+.skills span:hover {
+    background: #00d4ff;
+    color: black;
+}
+
+/* CTA */
+.cta {
+    background: linear-gradient(135deg, #00d4ff, #007bff);
+    padding: 70px 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+.cta button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+    background: white;
+    color: #007bff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* BACK */
+.back {
+    text-align: center;
+    margin: 40px;
+}
+
+.back a {
+    color: #00d4ff;
+    text-decoration: none;
+}
