@@ -134,6 +134,17 @@ const eventsData = [
             { type: "image", src: "assets/onboarding/3.jpg" },
             { type: "image", src: "assets/onboarding/4.jpg" }
         ]
+    },
+
+    {
+        title: "Meditation Session",
+        desc: "Session for mental well-being",
+        media: [
+            { type: "image", src: "assets/Meditation/img4.jpeg"},
+            { type: "image", src: "assets/Meditation/img2.jpeg" },
+            { type: "image", src: "assets/Meditation/img3.jpeg" },
+            { type: "image", src: "assets/Meditation/img1.jpeg" },
+        ]
     }
 ];
 
